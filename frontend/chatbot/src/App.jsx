@@ -34,7 +34,7 @@ const App = () => {
     ]);
 
     try {
-      const response = await fetch(`http://localhost:8000/chat/`, {
+      const response = await fetch(`https://chatbot-with-fastapi.onrender.com/chat/`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
